@@ -7,7 +7,7 @@ events:
           type: script
           script:
             - set -ex
-            - echo "Testing update PR."
+            - echo "Testing update PR!"
             - env
             - echo "Testing env vars"
             - 'echo "CI=" : ${CI?"Need to set CI"}'
