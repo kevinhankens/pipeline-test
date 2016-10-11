@@ -33,4 +33,4 @@ events:
             - 'echo "SELECT * FROM test_table;" | mysql -uroot -proot test_database | grep buildsteps'
             - echo $MY_VAR_3
             - echo $MY_VAR_4
-            - echo "Master commit."
+            - echo "Master commit after PR 6."
