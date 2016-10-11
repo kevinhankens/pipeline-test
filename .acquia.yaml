@@ -7,7 +7,7 @@ events:
           type: script
           script:
             - set -ex
-            - echo "Hello Kevin Hankens."
+            - echo "Hello Kevin Hankens master after 7."
             - env
             - echo "Testing env vars"
             - 'echo "CI=" : ${CI?"Need to set CI"}'
@@ -33,4 +33,4 @@ events:
             - 'echo "SELECT * FROM test_table;" | mysql -uroot -proot test_database | grep buildsteps'
             - echo $MY_VAR_3
             - echo $MY_VAR_4
-            - echo "Master commit after PR 7."
+            - echo "Master commit after PR 6."
