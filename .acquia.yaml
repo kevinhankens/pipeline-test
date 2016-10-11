@@ -7,7 +7,7 @@ events:
           type: script
           script:
             - set -ex
-            - echo "PIPELINE DEMO!"
+            - echo "PIPELINE DEMO merge?"
             - env
             - echo "Testing env vars"
             - 'echo "CI=" : ${CI?"Need to set CI"}'
