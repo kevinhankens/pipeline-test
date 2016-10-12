@@ -7,7 +7,7 @@ events:
           type: script
           script:
             - set -ex
-            - echo "Hello Kevin Hankens master after 7-3."
+            - echo "Hello Kevin Hankens master after 7-4."
             - env
             - echo "Testing env vars"
             - 'echo "CI=" : ${CI?"Need to set CI"}'
