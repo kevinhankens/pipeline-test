@@ -8,4 +8,4 @@ events:
           script:
             - set -ex
             - echo "Hello Kevin Hankens from master. Update 2."
-            - echo "Hello Kevin Hankens from PR 8."
+            - echo "Hello Kevin Hankens from PR 8. Update 4."
