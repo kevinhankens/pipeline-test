@@ -34,4 +34,4 @@ events:
             - echo $MY_VAR_3
             - echo $MY_VAR_4
             - echo "Master commit after PR 6."
-            - echo "PR 7 commit. updated 6."
+            - echo "PR 7 commit. updated 7."
