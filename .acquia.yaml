@@ -7,7 +7,7 @@ events:
           type: script
           script:
             - set -ex
-            - echo "Hello Kevin Hankens master after 7-1."
+            - echo "Hello Kevin Hankens master after 7-2."
             - echo $MY_VAR_3
             - echo $MY_VAR_4
             - echo "Master commit after PR 6."
