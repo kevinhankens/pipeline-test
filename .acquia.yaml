@@ -7,5 +7,5 @@ events:
           type: script
           script:
             - set -ex
-            - echo "Hello Kevin Hankens from master."
+            - echo "Hello Kevin Hankens from master. Update 2."
 
