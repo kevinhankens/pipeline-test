@@ -9,3 +9,4 @@ events:
             - set -ex
             - echo "Hello Kevin Hankens from master. Update 5."
             - echo "Hello Kevin Hankens from Prs."
+            - echo "Master update 6."
