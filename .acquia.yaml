@@ -7,6 +7,6 @@ events:
           type: script
           script:
             - set -ex
-            - cat file.master.text
-            - cat file.pr.text
+            - cat file.master.txt
+            - cat file.pr.txt
        
