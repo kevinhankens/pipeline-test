@@ -7,6 +7,6 @@ events:
           type: script
           script:
             - set -ex
-            - echo "Hello Kevin Hankens from master. Update 5."
-            - echo "Hello Kevin Hankens from Prs."
-            - echo "Master update 6."
+            - cat file.master.text
+            - cat file.pr.text
+       
