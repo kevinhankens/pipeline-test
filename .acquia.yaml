@@ -1,0 +1,12 @@
+---
+version: 1.0.0
+events:
+  build:
+    steps:
+      - behaviors:
+          type: script
+          script:
+            - set -ex
+            - cat file.master.txt
+            - cat file.pr.txt
+       
