@@ -6,6 +6,7 @@ events:
       - behaviors:
           type: script
           script:
+            - env
             - set -ex
             - cat file.master.txt
             - cat file.pr.txt
