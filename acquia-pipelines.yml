@@ -1,0 +1,18 @@
+version: 1.0.0
+events:
+  build:
+    steps:
+      - 
+        build_event:
+          type: script
+          script:
+          - env
+          - 'echo "GitHub build event."'
+  merge:
+    steps:
+      -
+        merge_event:
+          type: script
+          script:
+            - env
+            - 'echo "GitHub merge event."'
