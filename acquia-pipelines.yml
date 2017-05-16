@@ -1,14 +1,18 @@
----
 version: 1.0.0
 events:
   build:
     steps:
-      - behaviors:
+      - 
+        build_event:
+          type: script
+          script:
+          - env
+          - 'echo "GitHub build event."'
+  merge:
+    steps:
+      -
+        merge_event:
           type: script
           script:
             - env
-            - echo "hello bb"
-            - set -ex
-            - cat file.master.txt
-            - cat file.pr.txt
-       
+            - 'echo "GitHub merge event."'
