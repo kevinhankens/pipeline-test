@@ -1,14 +1,26 @@
----
 version: 1.0.0
 events:
   build:
     steps:
-      - behaviors:
+      - 
+        build_event:
+          type: script
+          script:
+          - env
+          - 'echo "GitHub build event."'
+  pr-merged:
+    steps:
+      -
+        pr_merged_event:
           type: script
           script:
             - env
-            - echo "hello bb"
-            - set -ex
-            - cat file.master.txt
-            - cat file.pr.txt
-       
+            - 'echo "GitHub pr merged event."'
+  pr-closed:
+    steps:
+      -
+        pr_closed_event:
+          type: script
+          script:
+            - env
+            - 'echo "GitHub pr closed event."'
