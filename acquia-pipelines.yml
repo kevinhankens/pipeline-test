@@ -7,7 +7,7 @@ events:
           type: script
           script:
             - env
-            - echo "hello pr"
+            - echo "hello pr - update"
             - set -ex
             - cat file.master.txt
             - cat file.pr.txt
